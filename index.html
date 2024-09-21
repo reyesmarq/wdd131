@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals" />
+    <meta name="author" content="Mauricio Alejandro Reyes Quintanilla" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <title>WDD 131: Dynamic web fundamentals</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <!--normalize-->
+    <link href="./styles/normalize.css" rel="stylesheet" />
+    <!--base styles-->
+    <link href="./styles/base.css" rel="stylesheet" />
+    <script defer src="./scripts/getdates.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">WDD 131: Dynamic Web fundamentals</h1>
+      <nav class="header__nav">
+        <a
+          class="header__nav-item"
+          href="https://www.linkedin.com/in/maureyesdev/"
+          >LinkedIn</a
+        >
+        <a class="header__nav-item" href="https://byui.instructure.com/"
+          >I-Learn</a
+        >
+        <a
+          class="header__nav-item"
+          href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/1?lang=eng&id=p1#p1"
+          >Scripture</a
+        >
+        <a class="header__nav-item" href="">Final Project</a>
+      </nav>
+    </header>
+
+    <main class="grid-container">
+      <section class="card">
+        <h2 class="card__title">About us</h2>
+        <div class="card__section">
+          <div class="card__content">
+            <p class="card__text">
+              My name is Rubia and I go by Ruby. I was born in South Africa and
+              live my family in Madagascar. I am currently working as
+              administrative legal assistant at a law firm. My children are my
+              world and I love spending time with them. I love to travel and I
+              love to learn new things.
+            </p>
+            <div class="card__image">
+              <img
+                src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+                alt="Mauricio Alejandro Reyes Quintanilla"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="card__section">
+          <h3 class="card__subtitle">San Salvador, El Salvador</h3>
+          <div class="card__content card__content-reverse">
+            <p class="card__text">
+              My name is Rubia and I go by Ruby. I was born in South Africa and
+              live my family in Madagascar. I am currently working as
+              administrative legal assistant at a law firm. My children are my
+              world and I love spending time with them. I love to travel and I
+              love to learn new things.
+            </p>
+            <div class="card__image">
+              <img
+                src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+                alt="Mauricio Alejandro Reyes Quintanilla"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="card__title">Web Dev Resources</h2>
+        <div class="card__section">
+          <ul class="card__list">
+            <li class="card__list-item">
+              <a href="" target="_blank">Dev.to Community.</a>
+            </li>
+            <li class="card__list-item">
+              <a href="" target="_blank">Smashing Magazine</a>
+            </li>
+            <li class="card__list-item">
+              <a href="" target="_blank">CSS Tricks</a>
+            </li>
+            <li class="card__list-item">
+              <a href="" target="_blank">W3 Schools</a>
+            </li>
+            <li class="card__list-item">
+              <a href="" target="_blank">Udemy</a>
+            </li>
+            <li class="card__list-item">
+              <a href="" target="_blank">Lorem Picsum Image Placeholder</a>
+            </li>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        &copy; <span id="currentyear">0</span> <span>&#183;</span> Mauricio Alejandro Reyes
+        Quintanilla <span><span>&#183;</span> El Salvador</span>
+      </p>
+      <p id="lastModified">0</p>
+    </footer>
+  </body>
+</html>
