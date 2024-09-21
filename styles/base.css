@@ -8,6 +8,8 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: var(--font-text);
 }
 
@@ -15,6 +17,7 @@ body {
 .header {
   margin: 1rem;
   background-color: var(--color-primary);
+  border-radius: 0.5rem;
 }
 
 .header__title {
@@ -22,6 +25,8 @@ body {
   font-family: var(--font-title);
   text-align: center;
   color: var(--color-white);
+  margin: 0;
+  padding: 1rem;
 }
 
 .header__nav {
@@ -37,18 +42,25 @@ body {
   display: flex;
   justify-content: center;
   text-decoration: none;
+  padding: 0.5rem;
+}
+
+.header__nav-item:hover {
+  background-color: var(--color-primary);
 }
 
 /*Main*/
 .grid-container {
   margin: 1rem;
   display: grid;
-  /*grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));*/
   gap: 1rem;
+  flex-grow: 1;
 }
 
 .card {
-  border: 1px solid var(--color-secondary);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .card__title {
@@ -82,21 +94,17 @@ body {
 
 .card__content {
   display: flex;
+  flex-direction: column;
   margin-top: 1rem;
   gap: 1rem;
 }
 
 .card__content-reverse {
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
 
 .card__text {
-  /*font-family: var(--font-text);*/
-  /*text-align: justify;*/
-  /*margin: 0;*/
-  /*padding: 0.5rem;*/
-  /*width: 80%;*/
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
 .card__image {
@@ -114,6 +122,8 @@ body {
   color: var(--color-white);
   text-align: center;
   padding: 1rem;
+  margin: 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .footer__text-accent {
@@ -121,21 +131,39 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    .title {
-      font-size: 2rem;
-    }
+  .header__nav {
+    flex-direction: row;
+  }
 
-    .nav {
-      flex-direction: row;
-    }
+  .card__content {
+    flex-direction: row;
+  }
+
+  .card__content-reverse {
+    flex-direction: row-reverse;
   }
 }
 
-/*@media screen and (min-width: 1920px) {*/
-/*  .header {*/
-/*    .title {*/
-/*      font-size: 3rem;*/
-/*    }*/
-/*  }*/
-/*}*/
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100dvh;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card__section {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid-container {
+    max-width: 1200px;
+    grid-template-columns: 60% auto;
+    margin-inline: auto;
+    justify-content: center;
+  }
+}
