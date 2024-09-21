@@ -45,7 +45,8 @@ body {
   padding: 0.5rem;
 }
 
-.header__nav-item:hover {
+.header__nav-item:hover,
+.header__nav-item:focus {
   background-color: var(--color-primary);
 }
 
