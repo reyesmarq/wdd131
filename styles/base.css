@@ -154,6 +154,10 @@ body {
     flex-direction: column;
   }
 
+  .card__title {
+    padding: 1rem;
+  }
+
   .card__section {
     flex-grow: 1;
     align-items: center;
