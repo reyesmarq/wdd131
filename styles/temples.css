@@ -1,0 +1,130 @@
+:root {
+  --font-text: "montserrat", sans-serif;
+  --font-title: "montserrat alternates", sans-serif;
+  --color-primary: #164e70;
+  --color-secondary: #333333;
+  --color-accent: #f2a365;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-text);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-white);
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav .nav__menu {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+}
+
+.nav .nav__menu.show {
+  display: flex;
+}
+
+.nav .nav__menu .nav__menu-item {
+  padding: 0 !important;
+}
+
+.nav .nav__menu .nav__menu-item .nav__menu-link {
+  text-decoration: none;
+  color: var(--color-white);
+  display: block;
+  padding: 1rem;
+}
+
+.nav .nav__menu .nav__menu-item .nav__menu-link:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+.header__icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+main {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card__image {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.card .thumbnail {
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer__text-accent {
+  color: var(--color-accent);
+}
