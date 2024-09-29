@@ -79,7 +79,7 @@ body {
   padding: 1rem;
 }
 
-.nav .nav__menu .nav__menu-item .nav__menu-link:hover {
+.nav .nav__menu .nav__menu-item a:hover {
   background-color: var(--color-white);
   color: var(--color-primary);
 }
