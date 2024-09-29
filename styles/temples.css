@@ -133,7 +133,3 @@ footer {
   text-align: center;
   padding: 1rem;
 }
-
-.footer__text-accent {
-  color: var(--color-accent);
-}
