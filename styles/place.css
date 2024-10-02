@@ -54,6 +54,12 @@ picture img {
   font-family: var(--font-title);
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.card:nth-of-type(2) .card__title::after {
+  content: url("../images/weather-icon.svg");
+  width: 60px;
 }
 
 table {
@@ -127,10 +133,6 @@ table td {
     padding: 1rem;
     align-items: center;
     justify-content: space-between;
-  }
-
-  .card__title img {
-    width: 60px;
   }
 
   .footer {
