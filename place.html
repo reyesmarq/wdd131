@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Place - for wdd 131 class" />
+  <meta name="author" content="Mauricio Alejandro Reyes Quintanilla" />
+  <title>Place</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap"
+    rel="stylesheet" />
+  <link href="styles/normalize.css" rel="stylesheet" />
+  <link href="styles/place.css" rel="stylesheet" />
+  <script defer src="scripts/place.js"></script>
+  <script defer src="scripts/getdates.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">El Salvador</h1>
+  </header>
+
+  <main>
+    <picture>
+      <source srcset="./images/place-hero-desktop.webp" media="(min-width: 768px)">
+      <img src="./images/place-hero-mobile.webp" alt="hero-image">
+    </picture>
+
+    <section class="card">
+      <h2 class="card__title">Data</h2>
+      <table>
+        <tr>
+          <th>Area:</th>
+          <td>21,041 km<sup>2</sup></td>
+        </tr>
+        <tr>
+          <th>Population:</th>
+          <td>6,403,023</td>
+        </tr>
+        <tr>
+          <th>Capital:</th>
+          <td>San Salvador</td>
+        </tr>
+        <tr>
+          <th>Currency:</th>
+          <td>US Dollar</td>
+        </tr>
+        <tr>
+          <th>Language:</th>
+          <td>Spanish</td>
+        </tr>
+        <tr>
+          <th>Time Zone:</th>
+          <td>UTC-06:00</td>
+        </tr>
+        <tr>
+          <th>Calling code:</th>
+          <td>+503</td>
+        </tr>
+        <tr>
+          <th>Internet TLD:</th>
+          <td>.sv</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr class="divider">
+
+    <section class="card position-right">
+      <h2 class="card__title">
+        Weather
+        <img src="./images/weather-icon.svg" alt="">
+      </h2>
+      <table>
+        <tr>
+          <th>Temperature:</th>
+          <td id="temperature">-</td>
+        </tr>
+        <tr>
+          <th>Conditions:</th>
+          <td id="conditions">-</td>
+        </tr>
+        <tr>
+          <th>Wind:</th>
+          <td id="wind">-</td>
+        </tr>
+        <tr>
+          <th>Wind Chill:</th>
+          <td id="windChill">-</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+
+  <footer class="footer">
+    <p>
+      &copy; <span id="currentyear">0</span> <span>&#183;</span> Mauricio
+      Alejandro Reyes Quintanilla <span><span>&#183;</span> El Salvador</span>
+    </p>
+    <p id="lastModified">0</p>
+  </footer>
+</body>
+
+</html>
