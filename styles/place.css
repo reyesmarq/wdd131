@@ -90,8 +90,23 @@ table td {
   text-align: center;
 }
 
-/*@media (min-width: 480px) {*/
-/*}*/
+.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.footer span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.footer img {
+  width: 20px;
+}
 
 @media (min-width: 768px) {
   .divider {
