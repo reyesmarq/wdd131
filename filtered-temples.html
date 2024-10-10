@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals Temple Album for wdd 131 class" />
+  <meta name="author" content="Mauricio Alejandro Reyes Quintanilla" />
+  <title>Temple Album</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap"
+    rel="stylesheet" />
+  <!--normalize-->
+  <link href="styles/normalize.css" rel="stylesheet" />
+  <!--base styles-->
+  <link href="styles/filtered-temples.css" rel="stylesheet" />
+  <link href="styles/filtered-temples-large.css" rel="stylesheet" />
+  <script defer src="scripts/getdates.js"></script>
+  <script defer src="scripts/filtered-temples.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__nav">
+      <h1 class="header__title">
+        Temple Album
+      </h1>
+      <div class="header__icon" id="navHamburger">
+        ☰
+      </div>
+    </div>
+    <nav class="nav" id="nav">
+      <ul class="nav__menu">
+        <li class="nav__menu-item">
+          <a href="index.html" class="nav__menu-link">Home</a>
+        </li>
+        <li class="nav__menu-item">
+          <a href="index.html" class="nav__menu-link">Old</a>
+        </li>
+        <li class="nav__menu-item">
+          <a href="index.html" class="nav__menu-link">New</a>
+        </li>
+        <li class="nav__menu-item">
+          <a href="index.html" class="nav__menu-link">Large</a>
+        </li>
+        <li class="nav__menu-item">
+          <a href="index.html" class="nav__menu-link">Small</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="subtitle">Temples</h2>
+    <div class="grid" id="templesContainer"></div>
+  </main>
+
+  <footer class="footer">
+    <p>
+      &copy; <span id="currentyear">0</span> <span>&#183;</span> Mauricio
+      Alejandro Reyes Quintanilla <span><span>&#183;</span> El Salvador</span>
+    </p>
+    <p id="lastModified">0</p>
+  </footer>
+</body>
+
+</html>
