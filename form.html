@@ -36,11 +36,6 @@
           Which is the following is a valid CSS comment?
         </label>
         <select name="q1" id="q1" class="form-input" required>
-          <option value="">Choose One...</option>
-          <option value="a">product 1</option>
-          <option value="b">product 2</option>
-          <option value="c">product 3</option>
-          <option value="d">product 4</option>
         </select>
       </div>
 
@@ -48,7 +43,7 @@
         <label class="form-label" for="q2">
           Overall Rating
         </label>
-        <div class="form-control container">
+        <div class="form-control container" id="starts-container">
           <div class="form-control">
             <div class="form-control container flex-row">
               <label for="star1" class="text-small">☆</label>
@@ -99,7 +94,7 @@
 
       <div class="form-control">
         <label class="form-label">Date of Installation</label>
-        <input class="form-input" type="date" />
+        <input class="form-input" type="date" id="date" required />
       </div>
 
       <div class="form-control">

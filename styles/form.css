@@ -1,6 +1,6 @@
 :root {
-  --font-text: "montserrat", sans-serif;
-  --font-title: "montserrat alternates", sans-serif;
+  --font-text: 'montserrat', sans-serif;
+  --font-title: 'montserrat alternates', sans-serif;
   --color-primary: #164e70;
   --color-secondary: #333333;
   --color-accent: #f2a365;
@@ -143,8 +143,8 @@ footer {
   --ascent1-color: #000;
   --accent2-color: #000;
 
-  --heading-font: "comfortaa", sans-serif;
-  --paragraph-font: "comfortaa", sans-serif;
+  --heading-font: 'comfortaa', sans-serif;
+  --paragraph-font: 'comfortaa', sans-serif;
 
   --nav-background-color: #f1faee;
   --nav-link-color: #1d3557;
@@ -165,6 +165,12 @@ input .container {
   margin-inline: auto;
   background-color: var(--primary-color);
   color: white !important;
+}
+
+form input,
+form select,
+form textarea {
+  color: var(--primary-color) !important;
 }
 
 .form-control {
