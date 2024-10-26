@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "accessories"
+  },
+  {
+    "id": 2,
+    "name": "audio"
+  },
+  {
+    "id": 3,
+    "name": "computers"
+  },
+  {
+    "id": 4,
+    "name": "components"
+  },
+  {
+    "id": 5,
+    "name": "storage"
+  },
+  {
+    "id": 6,
+    "name": "printers"
+  },
+  {
+    "id": 7,
+    "name": "software"
+  },
+  {
+    "id": 8,
+    "name": "monitors"
+  },
+  {
+    "id": 9,
+    "name": "networking"
+  },
+  {
+    "id": 10,
+    "name": "energy"
+  }
+]
