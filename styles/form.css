@@ -1,0 +1,240 @@
+:root {
+  --font-text: "montserrat", sans-serif;
+  --font-title: "montserrat alternates", sans-serif;
+  --color-primary: #164e70;
+  --color-secondary: #333333;
+  --color-accent: #f2a365;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-text);
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.subtitle {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-secondary);
+  text-align: center;
+  margin-block: 1.5rem;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-white);
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav .nav__menu {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+}
+
+.nav .nav__menu.show {
+  display: flex;
+}
+
+.nav .nav__menu .nav__menu-item {
+  padding: 0 !important;
+}
+
+.nav .nav__menu .nav__menu-item .nav__menu-link {
+  text-decoration: none;
+  color: var(--color-white);
+  display: block;
+  padding: 1rem;
+}
+
+.nav .nav__menu .nav__menu-item a:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+}
+
+.header__icon {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+main {
+  padding: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card__image {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.card .thumbnail {
+  padding: 1rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 1rem;
+}
+
+:root {
+  --primary-color: #457b9d;
+  --secondary-color: #a8dadc;
+  --background-color: #f1faee;
+  --accent-color: #e63946;
+  --black-color: #1d3557;
+
+  --ascent1-color: #000;
+  --accent2-color: #000;
+
+  --heading-font: "comfortaa", sans-serif;
+  --paragraph-font: "comfortaa", sans-serif;
+
+  --nav-background-color: #f1faee;
+  --nav-link-color: #1d3557;
+  --nav-hover-link-color: #f1faee;
+  --nav-hover-background-color: #1d3557;
+}
+
+input .container {
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+.form {
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #f1faee;
+  max-width: 60%;
+  margin-inline: auto;
+  background-color: var(--primary-color);
+  color: white !important;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.form-control:not(.container) > div:nth-child(1) {
+  margin-top: 8px;
+}
+
+.form-control.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-small {
+  font-size: 0.7rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+@media (min-width: 768px) {
+  .form-control.container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.form-label.accent {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.form-input {
+  all: unset;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  /* light green color */
+  background-color: #4caf50 !important;
+  color: white;
+  cursor: pointer;
+  padding: 16px 24px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-block: 8px;
+}
+
+.btn.primary {
+  background-color: var(--primary-color);
+}
