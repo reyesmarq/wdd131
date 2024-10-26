@@ -167,7 +167,7 @@ input .container {
   color: white !important;
 }
 
-form input,
+form input:not([type='submit']),
 form select,
 form textarea {
   color: var(--primary-color) !important;

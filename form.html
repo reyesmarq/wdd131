@@ -4,17 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals form for wdd 131 class" />
-  <meta name="author" content="Mauricio Alejandro Reyes Quintanilla" />
+  <meta name="description" content="WDD 131 - Dynamic Web Fundamentals form for wdd 131 class">
+  <meta name="author" content="Mauricio Alejandro Reyes Quintanilla">
   <title>WDD 131 - Dynamic Web Fundamentals form for wdd 131 class</title>
-  <link href="css/style.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap"
-    rel="stylesheet" />
-  <link href="styles/normalize.css" rel="stylesheet" />
-  <link href="styles/form.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@100;400&display=swap"
+    rel="stylesheet">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/form.css" rel="stylesheet">
   <script defer src="scripts/getdates.js"></script>
   <script defer src="scripts/form.js"></script>
 </head>
@@ -36,57 +36,58 @@
           Which is the following is a valid CSS comment?
         </label>
         <select name="q1" id="q1" class="form-input" required>
+          <option value="">ghost field</option>
         </select>
       </div>
 
       <div class="form-control">
-        <label class="form-label" for="q2">
+        <label class="form-label">
           Overall Rating
         </label>
         <div class="form-control container" id="starts-container">
           <div class="form-control">
             <div class="form-control container flex-row">
-              <label for="star1" class="text-small">☆</label>
+              <label class="text-small">☆</label>
             </div>
-            <input type="radio" />
+            <input type="radio">
           </div>
 
           <div class="form-control">
             <div class="form-control container flex-row">
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
             </div>
-            <input type="radio" />
+            <input type="radio">
           </div>
 
           <div class="form-control">
             <div class="form-control container flex-row">
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
             </div>
-            <input type="radio" />
+            <input type="radio">
           </div>
 
           <div class="form-control">
             <div class="form-control container flex-row">
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
             </div>
-            <input type="radio" />
+            <input type="radio">
           </div>
 
           <div class="form-control">
             <div class="form-control container flex-row">
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
-              <label for="star1" class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
+              <label class="text-small">☆</label>
             </div>
-            <input type="radio" />
+            <input type="radio">
           </div>
         </div>
       </div>
@@ -94,7 +95,7 @@
 
       <div class="form-control">
         <label class="form-label">Date of Installation</label>
-        <input class="form-input" type="date" id="date" required />
+        <input class="form-input" type="date" id="date" required>
       </div>
 
       <div class="form-control">
@@ -102,36 +103,40 @@
           Which features did you find useful in the product?
         </label>
         <div>
-          <input type="checkbox" />
+          <input type="checkbox">
           <label>Durability</label>
         </div>
         <div>
-          <input type="checkbox" />
+          <input type="checkbox">
           <label>Ease of Use</label>
         </div>
         <div>
-          <input type="checkbox" />
+          <input type="checkbox">
           <label>Performance</label>
         </div>
         <div>
-          <input type="checkbox" />
+          <input type="checkbox">
           <label>Design</label>
         </div>
       </div>
 
       <div class="form-control">
         <label class="form-label">Written Review (Optional)</label>
-        <textarea type="text" class="form-input"></textarea>
+        <textarea class="form-input"></textarea>
       </div>
       <div class="form-control">
         <label class="form-label">Your Name (Optional)</label>
-        <input class="form-input" type="text" />
+        <input class="form-input" type="text" required>
       </div>
       <div class="form-control">
-        <button class="btn primary">Post Review</button>
+        <label class="form-label">Your Email (Optional)</label>
+        <input class="form-input" type="text" required>
+      </div>
+      <div class="form-control">
+        <input type="submit" class="btn primary" value="Submit">
       </div>
     </form>
-    <br />
+    <br>
   </main>
 
   <footer class="footer">
