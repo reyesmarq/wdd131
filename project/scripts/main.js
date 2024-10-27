@@ -1,7 +1,18 @@
 (async () => {
-  document.getElementById('navHamburger').addEventListener('click', () => {
-    document.querySelector('.nav .nav__menu').classList.toggle('show');
-  });
+  // Section to manage the categories page filter
+  const { pathname, search } = window.location;
+
+  const { name: categoryName } = search
+    .split('?')
+    .map((pair) => {
+      if (pair !== '') return pair.split('=');
+    })
+    .filter((values) => values)
+    .reduce((json, params) => {
+      let key = params[0];
+      let value = params[1];
+      return { ...json, [key]: value };
+    }, {});
 
   const productResponse = await fetch(
     'https://reyesmarq.github.io/wdd131/project/data/products.json',
@@ -13,7 +24,10 @@
   const products = await productResponse.json();
 
   const productsContainer = document.getElementById('products-container');
-  const productsHtml = products
+  const filteredProducts = pathname.includes('categories')
+    ? products.filter(({ category }) => category === categoryName)
+    : products;
+  const productsHtml = filteredProducts
     .map(
       ({ id, description, price, images }) => `
         <div class="product-card">
@@ -32,8 +46,6 @@
     )
     .join(',')
     .replace(/\,/g, '');
-
-  //<a href="pages/products/categories/index.html?id=${id}" class="list__link">${name}</a>
 
   productsContainer.innerHTML = productsHtml;
 })();
