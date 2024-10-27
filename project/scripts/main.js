@@ -1,7 +1,6 @@
 (async () => {
   // Section to manage the categories page filter
   const { pathname, search } = window.location;
-
   const { name: categoryName } = search
     .split('?')
     .map((pair) => {
@@ -27,6 +26,7 @@
   const filteredProducts = pathname.includes('categories')
     ? products.filter(({ category }) => category === categoryName)
     : products;
+
   const productsHtml = filteredProducts
     .map(
       ({ id, description, price, images }) => `

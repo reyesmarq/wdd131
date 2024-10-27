@@ -122,7 +122,7 @@ h6 {
 }
 
 /* All products container */
-.product-container {
+.products-container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -196,7 +196,7 @@ h6 {
   }
 
   /* Main */
-  .product-container {
+  .products-container {
     grid-template-columns: repeat(2, 1fr);
     display: grid;
     grid-column: 2 / 4;
@@ -232,7 +232,7 @@ h6 {
   }
 
   /* Main */
-  .product-container {
+  .products-container {
     grid-template-columns: repeat(3, 1fr);
     display: grid;
     grid-column: 2 / 5;
@@ -250,9 +250,98 @@ h6 {
   }
 
   /* Main */
-  .product-container {
+  .products-container {
     grid-template-columns: repeat(4, 1fr);
     display: grid;
     grid-column: 2 / 6;
   }
+}
+
+/* form */
+.form {
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #f1faee;
+  max-width: 60%;
+  margin-inline: auto;
+  background-color: var(--primary-color);
+  color: white !important;
+}
+
+form input:not([type='submit']),
+form select,
+form textarea {
+  color: var(--primary-color) !important;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.form-control:not(.container) > div:nth-child(1) {
+  margin-top: 8px;
+}
+
+.form-control.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.text-small {
+  font-size: 0.7rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-row {
+  flex-direction: row !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+@media (min-width: 768px) {
+  .form-control.container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.form-label.accent {
+  color: steelblue;
+  font-weight: bold;
+}
+
+.form-input {
+  all: unset;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  /* light green color */
+  background-color: #4caf50 !important;
+  color: white;
+  cursor: pointer;
+  padding: 16px 24px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-block: 8px;
+}
+
+.btn.primary {
+  background-color: var(--primary-color);
 }
