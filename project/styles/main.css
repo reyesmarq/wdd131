@@ -89,14 +89,10 @@ h6 {
   display: grid;
   grid-gap: 1rem;
   padding: 1rem;
+  grid-template-columns: 1fr;
 }
 
 /* Aside for categories */
-/*.aside {*/
-/*  padding: 0;*/
-/*  margin: 0;*/
-/*  border: 1px solid red;*/
-/*}*/
 
 .list {
   list-style-type: none;
@@ -126,18 +122,93 @@ h6 {
 }
 
 /* All products container */
-
-@media (min-width: 480px) {
-  /* Header */
-
-  /* Main */
-
-  /* Aside for categories */
-
-  /* All products container */
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
-@media (min-width: 768px) {
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  overflow: hidden;
+}
+
+.product-info {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-description {
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.go-to-product {
+  background-color: #4caf50;
+  color: white;
+}
+
+.add-to-cart {
+  background-color: #008cba;
+  color: white;
+}
+
+/* Media query for tablets */
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Main */
+  .product-container {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-column: 2 / 4;
+  }
+}
+
+/* Media query for desktops */
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
   /* Header */
   .header {
     flex-direction: row;
@@ -161,11 +232,27 @@ h6 {
   }
 
   /* Main */
-  .grid-container {
-    grid-template-columns: repeat(4, 1fr);
+  .product-container {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-column: 2 / 5;
   }
 
   /* Aside for categories */
 
   /* All products container */
+}
+
+/* Media query for large desktops */
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Main */
+  .product-container {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-column: 2 / 6;
+  }
 }
