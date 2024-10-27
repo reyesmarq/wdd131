@@ -380,42 +380,42 @@
   {
     "id": "55",
     "price": "49.95",
-    "category": "energia",
+    "category": "energy",
     "images": ["55"],
     "description": "Gaming Mouse Pad Logitech G440 Hard Gaming / Mouse Pad / 943-000099"
   },
   {
     "id": "56",
     "price": "64.95",
-    "category": "energia",
+    "category": "energy",
     "images": ["56.1", "56.2"],
     "description": "Gaming Mouse Pad Razer Goliathus Extended Chroma / RGB / Soft / RZ02-02500300-R3U1"
   },
   {
     "id": "57",
     "price": "294.95",
-    "category": "energia",
+    "category": "energy",
     "images": ["57"],
     "description": "Gaming Mouse Razer DeathAdder Essential / Ergonomic / Optical Sensor / RZ01-02540100-R3U1"
   },
   {
     "id": "58",
     "price": "21.45",
-    "category": "energia",
+    "category": "energy",
     "images": ["58"],
     "description": "Gaming Mouse Logitech G502 HERO / 16000 DPI / RGB / Adjustable Weights / 910-005469"
   },
   {
     "id": "59",
     "price": "194.95",
-    "category": "energia",
+    "category": "energy",
     "images": ["59.1", "59.2"],
     "description": "Gaming Mouse Corsair M55 RGB Pro / 12400 DPI / Ambidextrous / Optical / CH-9308011-NA"
   },
   {
     "id": "60",
     "price": "194.95",
-    "category": "energia",
+    "category": "energy",
     "images": ["60.1", "60.2"],
     "description": "Gaming Controller Sony DualShock 4 Wireless for PS4 / Jet Black"
   }
