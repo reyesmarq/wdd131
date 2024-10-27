@@ -3,7 +3,7 @@
   const navHtml = `
     <div class="header__nav">
       <h1 class="header__title">
-        pcpartify
+        <a href="index.html">pcpartify</a>
       </h1>
       <div class="header__icon" id="nav-hamburger">
         ☰
