@@ -1,0 +1,422 @@
+[
+  {
+    "id": "1",
+    "price": "4.95",
+    "category": "accessories",
+    "images": ["1.1", "1.2"],
+    "description": "Wireless Mouse Vorago MO-207 Pink"
+  },
+  {
+    "id": "2",
+    "price": "294.95",
+    "category": "accessories",
+    "images": ["2.1", "2.2", "2.3"],
+    "description": "Gaming Chair Vertagear SL1000 Black/Green VG-SL1000-GR"
+  },
+  {
+    "id": "3",
+    "price": "78.45",
+    "category": "accessories",
+    "images": ["3.1", "3.2", "3.3"],
+    "description": "Gaming Keyboard REDRAGON K589RGB-SP SHRAPNEL / Wired / RGB / Mechanical / Outemu Blue LP / Spanish / K589RGB-SP-SHRAPNEL"
+  },
+  {
+    "id": "4",
+    "price": "49.94",
+    "category": "accessories",
+    "images": ["4.1", "4.2", "4.3", "4.4"],
+    "description": "Gaming Backpack for Laptop / Trust Gaming Hunter GXT1250C / 15.6\" / Camouflage / Water-Resistant / Scratch-Resistant / Shockproof / 23868"
+  },
+  {
+    "id": "5",
+    "price": "18.45",
+    "category": "accessories",
+    "images": ["5.1", "5.2", "5.3"],
+    "description": "Gaming Glasses Xzeal XZAGG50R XZ500 Red / Anti Blue Light / TR90 Thermoplastic / Includes Case and Microfiber"
+  },
+  {
+    "id": "6",
+    "price": "67.45",
+    "category": "accessories",
+    "images": ["6.1", "6.2"],
+    "description": "HD Webcam Logitech C505 / 720p-30FPS / 960-001363 / Promo Logi"
+  },
+  {
+    "id": "7",
+    "price": "249.95",
+    "category": "audio",
+    "images": ["7.1", "7.2", "7.3"],
+    "description": "Gaming Headset Razer Blackshark V2 PRO Wireless / Compatible with PC, MAC, PS4, XBOX ONE, Nintendo Switch, Smartphone / THX / RZ04-03220100-R3U1"
+  },
+  {
+    "id": "8",
+    "price": "19.95",
+    "category": "audio",
+    "images": ["8"],
+    "description": "Computer Speakers Acteck 2.1 USB / 3.5mm jack / AXF-200 AUBO-070"
+  },
+  {
+    "id": "9",
+    "price": "69.96",
+    "category": "audio",
+    "images": ["9"],
+    "description": "Studio-Quality Streaming Microphone / Blue Snowball Cardioid Black / 988-000067 / Free Logitech Mug"
+  },
+  {
+    "id": "10",
+    "price": "32.95",
+    "category": "audio",
+    "images": ["10"],
+    "description": "Gaming Headset Naceb Iron Knight NA-0318 / PC / Consoles / 3.5mm / Microphone"
+  },
+  {
+    "id": "11",
+    "price": "8.45",
+    "categor": "audio",
+    "images": ["11"],
+    "description": "Earphones PANASONIC ERGOFIT-BLACK / 3.5mm / RP-HJE125PPK"
+  },
+  {
+    "id": "12",
+    "price": "72.95",
+    "categor": "audio",
+    "images": ["12.1", "12.2", "12.3"],
+    "description": "Gaming Headset Thermaltake Cronos Riing 7.1 Channels / HT-CRA-DIECBK-20"
+  },
+  {
+    "id": "13",
+    "price": "699.95",
+    "categor": "computers",
+    "images": ["13.1", "13.2", "13.3", "13.4"],
+    "description": "Laptop HP 14-DQ0011DX / Intel Core i3-8145U / Intel Graphics 620 UHD / 4GB RAM / 128GB SSD / 14\" / Windows 10 S / Gold Color"
+  },
+  {
+    "id": "14",
+    "price": "1239.95",
+    "categor": "computers",
+    "images": ["14.1", "14.2", "14.3", "14.4", "14.5"],
+    "description": "Gaming Laptop MSI GeForce GTX 1650 MAX-Q 4GB / i7-10750H / 8GB DDR4 RAM / 512GB PCIe SSD / 15.6\" FHD / Windows 10 Home / GF63 THIN 10SCXR-1268MX"
+  },
+  {
+    "id": "15",
+    "price": "139.95",
+    "categor": "computers",
+    "images": ["15"],
+    "description": "Mini Computer Asus / Intel Celeron N4000 / Intel HD Graphics / Configurable RAM / Configurable HDD / ON40-BBC444MC"
+  },
+  {
+    "id": "16",
+    "price": "699.95",
+    "categor": "computers",
+    "images": ["16.1", "16.2", "16.3", "16.4", "16.5", "16.6"],
+    "description": "Computer / Intel Core i7-10710U / Intel UHD Graphics / Gigabyte Brix GB-BRI7H-10710"
+  },
+  {
+    "id": "17",
+    "price": "1399.95",
+    "categor": "computers",
+    "images": ["17.1", "17.2", "17.3"],
+    "description": "PRIDE GAMING SHARK Computer / Geforce RTX 2060 / Intel Core i5-10400F / 16GB RAM / 480GB SSD"
+  },
+  {
+    "id": "18",
+    "price": "2299.95",
+    "category": "computers",
+    "images": ["18.1", "18.2", "18.3"],
+    "description": "PRIDE GAMING PBA RACCOON Computer / NVIDIA® GeForce RTX™ 3070 / AMD RYZEN 5 5600X / 32GB RAM / 500GB NVMe SSD / 750W 80+ Bronze / 120 RGB Liquid Cooling"
+  },
+  {
+    "id": "19",
+    "price": "89.95",
+    "category": "components",
+    "images": ["19.1", "19.2", "19.3"],
+    "description": "Motherboard Asrock B360 PRO 4 Socket 1151-V2 Intel B360 ATX / DDR4"
+  },
+  {
+    "id": "20",
+    "price": "64.95",
+    "category": "components",
+    "images": ["20.1", "20.2"],
+    "description": "Solid State Drive SSD M.2 NVMe 480GB Adata SX8200 - Read 3050MB/s Write 1750MB/s ASX8200NP-480GT-C"
+  },
+  {
+    "id": "21",
+    "price": "99.95",
+    "category": "components",
+    "images": ["21.1", "21.2", "21.3", "21.4", "21.5", "21.6"],
+    "description": "Power Supply EVGA 700 GD 100-GD-0700-V1 / 700W / 80 Plus Gold"
+  },
+  {
+    "id": "22",
+    "price": "149.95",
+    "category": "components",
+    "images": ["22.1", "22.2", "22.3"],
+    "description": "CPU Cooler Noctua NH-D15 chromax.black / 140mm x2 / Intel and AMD (AM4 Ready)"
+  },
+  {
+    "id": "23",
+    "price": "394.95",
+    "category": "components",
+    "images": ["23"],
+    "description": "Processor Intel Core i7-10700KF 3.50GHz / 5.10GHz / 8 Cores / 16 Threads / LGA1200 Socket / Requires Heat Sink / Intel 10th Generation - BX8070110700KF"
+  },
+  {
+    "id": "24",
+    "price": "274.95",
+    "category": "components",
+    "images": ["24"],
+    "description": "Internal Hard Drive 8TB 3.5\" SATA3 7200RPM / 256MB Cache / New WD RED PLUS - WD80EFBX"
+  },
+  {
+    "id": "25",
+    "price": "",
+    "category": "storage",
+    "images": ["25.1", "25.2"],
+    "description": "External SSD Kingston Savage EXO 480GB / Shockproof / USB 3.1 Type C / Extreme Speed / SHSX100/480G"
+  },
+  {
+    "id": "26",
+    "price": "127.95",
+    "category": "storage",
+    "images": ["26.1", "26.2", "26.3", "26.4"],
+    "description": "External Hard Drive 4TB Adata HV620S Portable USB 3.0 / AHV620S-4TU31-CBK"
+  },
+  {
+    "id": "27",
+    "price": "24.94",
+    "category": "storage",
+    "images": ["27"],
+    "description": "Micro SD Memory Card 64GB Sandisk Extreme CL10 U3 A2 with SD Adapter / 160MB/s / SDSQXA2-064G-GN6AA"
+  },
+  {
+    "id": "28",
+    "price": "54.95",
+    "category": "storage",
+    "images": ["28.1", "28.2"],
+    "description": "SD Memory Card Sandisk Extreme Pro 128GB UHS-II CL10 U3 SDXC / 170MB/s / 4K and FHD / SDSDXXY-128G-GN4IN"
+  },
+  {
+    "id": "29",
+    "price": "8.95",
+    "category": "storage",
+    "images": ["29"],
+    "description": "USB 3.1 Flash Drive 64GB Adata UV330 Black / AUV330-64G-RBK"
+  },
+  {
+    "id": "30",
+    "price": "6.3",
+    "category": "storage",
+    "images": ["30.1", "30.2"],
+    "description": "USB 2.0 Flash Drive 16GB Sandisk Cruiser Fit / Black / SDCZ33-016G-B35"
+  },
+  {
+    "id": "31",
+    "price": "59.95",
+    "category": "printing",
+    "images": ["31"],
+    "description": "Laser Printer Pantum P2506W / Wi-Fi / USB / Toner / Black"
+  },
+  {
+    "id": "32",
+    "price": "284.95",
+    "category": "printing",
+    "images": ["32.1", "32.2"],
+    "description": "Multifunction HP NEVERSTOP LASER 1200A / Toner Tank / USB / 4QD21A"
+  },
+  {
+    "id": "33",
+    "price": "284.95",
+    "category": "printing",
+    "images": ["33.1", "33.2"],
+    "description": "Multifunction Canon Pixma G4100 / Continuous Ink / Wi-Fi / 1515C004AA"
+  },
+  {
+    "id": "34",
+    "price": "219.95",
+    "category": "printing",
+    "images": ["34.1", "34.2"],
+    "description": "Multifunction Epson Ecotank L3110 (C11CG87301) / Continuous Ink / USB"
+  },
+  {
+    "id": "35",
+    "price": "209.95",
+    "category": "printing",
+    "images": ["35.1", "35.2"],
+    "description": "Printer Epson Ecotank L1110 / USB / Color / C11CG89301"
+  },
+  {
+    "id": "36",
+    "price": "705.65",
+    "category": "printing",
+    "images": ["36"],
+    "description": "Continuous Ink Printer Epson L1300 / USB / C11CD81301"
+  },
+  {
+    "id": "37",
+    "price": "24.95",
+    "category": "software",
+    "images": ["37"],
+    "description": "BITDEFENDER TOTAL SECURITY 2YR 3USR (247916)"
+  },
+  {
+    "id": "38",
+    "price": "12.95",
+    "category": "software",
+    "images": ["38"],
+    "description": "KASPERSKY INTERNET SECURITY 1USER 1YR (KL1939ZOAFS-9)"
+  },
+  {
+    "id": "39",
+    "price": "181.95",
+    "category": "software",
+    "images": ["39.1", "39.2"],
+    "description": "Microsoft Office 365 Business Premium License 32/64 Bits Spanish 1 Year / 1 User - KLQ-00439"
+  },
+  {
+    "id": "40",
+    "price": "261.95",
+    "category": "software",
+    "images": ["40"],
+    "description": "Windows 10 Pro 64Bits Digital - FPP - Multilingual - Microsoft Operating System - Downloadable Production"
+  },
+  {
+    "id": "41",
+    "price": "22.79",
+    "category": "software",
+    "images": ["41"],
+    "description": "ESET NOD32 ANTIVIRUS 1USER 1YR V2018 (TMESET-201)"
+  },
+  {
+    "id": "42",
+    "price": "330.98",
+    "category": "software",
+    "images": ["42.1", "42.2"],
+    "description": "Microsoft Office 2019 Home and Business License 32/64 Bits Spanish 1 Device - T5D-03260"
+  },
+  {
+    "id": "43",
+    "price": "114.95",
+    "category": "monitors",
+    "images": ["43.1", "43.2", "43.3"],
+    "description": "Monitor HP Envy 24.5\" E5H53AA FHD / HDMI - VGA - 60Hz"
+  },
+  {
+    "id": "44",
+    "price": "709.95",
+    "category": "monitors",
+    "images": ["44.1", "44.2", "44.3", "44.4", "44.5"],
+    "description": "Monitor AOC 23.8\" IPS Full HD / HDMI / VGA / 75Hz / Frameless / 24B1H"
+  },
+  {
+    "id": "45",
+    "price": "599.95",
+    "category": "monitors",
+    "images": ["45.1", "45.2", "45.3", "45.4", "45.5"],
+    "description": "Curved Gaming Monitor Samsung 24\" LED / 144Hz / HDMI / DisplayPort / LC24RG50FQLXZX"
+  },
+  {
+    "id": "46",
+    "price": "139.95",
+    "category": "monitors",
+    "images": ["46.1", "46.2"],
+    "description": "Gaming Monitor LG Ultragear 27\" FHD / 144Hz / 1ms / HDMI / DisplayPort / 27GN750-B.AWM"
+  },
+  {
+    "id": "47",
+    "price": "289.95",
+    "category": "monitors",
+    "images": ["47.1", "47.2", "47.3", "47.4", "47.5"],
+    "description": "Monitor Dell 27\" LED / Full HD / HDMI / DP / 60Hz / S2721HS"
+  },
+  {
+    "id": "48",
+    "price": "589.95",
+    "category": "monitors",
+    "images": ["48.1", "48.2", "48.3", "48.4"],
+    "description": "Monitor ASUS TUF Gaming 27\" VG27VQ / Curved / 165Hz / 1ms / Adaptive-Sync / HDR10 / VG27VQ"
+  },
+  {
+    "id": "49",
+    "price": "39.95",
+    "category": "networking",
+    "images": ["49.1", "49.2", "49.3"],
+    "description": "Graphics Card Gigabyte GeForce RTX 3080 GAMING OC 10G / GDDR6X / 10GB / GV-N3080GAMING OC-10GD"
+  },
+  {
+    "id": "50",
+    "price": "99.95",
+    "category": "networking",
+    "images": ["50"],
+    "description": "Graphics Card MSI GeForce GTX 1660 Super Ventus XS OC 6GB GDDR6 / GTX 1660 Super Ventus XS OC"
+  },
+  {
+    "id": "51",
+    "price": "74.95",
+    "category": "networking",
+    "images": ["51.1", "51.2"],
+    "description": "Graphics Card ASUS TUF Gaming NVIDIA GeForce GTX 1650 Super / Overclocked / 4GB GDDR6 / TUF-GTX1650S-O4G-GAMING"
+  },
+  {
+    "id": "52",
+    "price": "199.95",
+    "category": "networking",
+    "images": ["52.1", "52.2", "52.3"],
+    "description": "Graphics Card EVGA GeForce RTX 2060 KO Ultra Gaming / 6GB GDDR6 / 06G-P4-2068-KR"
+  },
+  {
+    "id": "53",
+    "price": "194.95",
+    "category": "networking",
+    "images": ["53.1", "53.2", "53.3"],
+    "description": "Graphics Card XFX AMD Radeon RX 580 GTS XXX Edition 8GB / GDDR5 / RX-580P8DFD6"
+  },
+  {
+    "id": "54",
+    "price": "94.95",
+    "category": "networking",
+    "images": ["54.1", "54.2", "54.3"],
+    "description": "Gaming Mouse Pad HyperX FURY S Pro Large / Cloth / Anti-Fray / HX-MPFS-S-L"
+  },
+  {
+    "id": "55",
+    "price": "49.95",
+    "category": "energia",
+    "images": ["55"],
+    "description": "Gaming Mouse Pad Logitech G440 Hard Gaming / Mouse Pad / 943-000099"
+  },
+  {
+    "id": "56",
+    "price": "64.95",
+    "category": "energia",
+    "images": ["56.1", "56.2"],
+    "description": "Gaming Mouse Pad Razer Goliathus Extended Chroma / RGB / Soft / RZ02-02500300-R3U1"
+  },
+  {
+    "id": "57",
+    "price": "294.95",
+    "category": "energia",
+    "images": ["57"],
+    "description": "Gaming Mouse Razer DeathAdder Essential / Ergonomic / Optical Sensor / RZ01-02540100-R3U1"
+  },
+  {
+    "id": "58",
+    "price": "21.45",
+    "category": "energia",
+    "images": ["58"],
+    "description": "Gaming Mouse Logitech G502 HERO / 16000 DPI / RGB / Adjustable Weights / 910-005469"
+  },
+  {
+    "id": "59",
+    "price": "194.95",
+    "category": "energia",
+    "images": ["59.1", "59.2"],
+    "description": "Gaming Mouse Corsair M55 RGB Pro / 12400 DPI / Ambidextrous / Optical / CH-9308011-NA"
+  },
+  {
+    "id": "60",
+    "price": "194.95",
+    "category": "energia",
+    "images": ["60.1", "60.2"],
+    "description": "Gaming Controller Sony DualShock 4 Wireless for PS4 / Jet Black"
+  }
+]
