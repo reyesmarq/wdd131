@@ -38,7 +38,7 @@
             <p class="product-price">$${price}</p>
             <div class="button-container">
               <a href="pages/product/index.html?id=${id}" class="button go-to-product">Go to Product</a>
-              <button class="button add-to-cart">Add to Cart</button>
+              <button class="button add-to-cart" data-action="add-to-cart" data-product-id=${id}>Add to Cart</button>
             </div>
           </div>
         </div>
@@ -48,4 +48,31 @@
     .replace(/\,/g, '');
 
   productsContainer.innerHTML = productsHtml;
+
+  productsContainer.addEventListener('click', (event) => {
+    const action = event.target.dataset['action'];
+    const procuctId = event.target.dataset['productId'];
+
+    if (action === 'add-to-cart') {
+      const cart = JSON.parse(localStorage.getItem('cart')) || [];
+      const { images, ...product } = products.find(
+        ({ id }) => id === procuctId,
+      );
+      const productCart = {
+        ...product,
+        image: images[0],
+      };
+      console.log('productCart', productCart);
+      // manage if the product is in the cart then mutate that item and increase the quantity
+      const productIndex = cart.findIndex(({ id }) => id === procuctId);
+      if (productIndex !== -1) {
+        cart[productIndex].quantity += 1;
+      } else {
+        cart.push({ ...productCart, quantity: 1 });
+      }
+
+      localStorage.setItem('cart', JSON.stringify(cart));
+      showToast('Product added to cart');
+    }
+  });
 })();
