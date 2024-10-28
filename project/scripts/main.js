@@ -37,7 +37,7 @@
             <p class="product-description">${description}</p>
             <p class="product-price">$${price}</p>
             <div class="button-container">
-              <a href="pages/product/index.html?id=${id}" class="button go-to-product">Go to Product</a>
+              <a href="https://reyesmarq.github.io/wdd131/project/pages/product/index.html?id=${id}" class="button go-to-product">Go to Product</a>
               <button class="button add-to-cart" data-action="add-to-cart" data-product-id=${id}>Add to Cart</button>
             </div>
           </div>
