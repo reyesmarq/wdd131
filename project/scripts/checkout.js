@@ -14,14 +14,14 @@
 
   const tBodyHtmlContent = products
     .map(
-      (product) => `
+      ({ id, description, quantity, price, image }) => `
         <tr>
-          <td data-label="Image"><img src="https://reyesmarq.github.io/wdd131/project/images/${product.image}.png" alt="${product.description}"></td>
-          <td data-label="Description">${product.description}</td>
-          <td data-label="Quantity"><input type="number" name="quantity" value="${product.quantity}" min="1"></td>
-          <td data-label="Unit Price">$${product.price}</td>
-          <td data-label="Total Price">$${(product.price * product.quantity).toFixed(2)}</td>
-          <td data-label="Delete"><button class="delete-btn">X</button></td>
+          <td data-label="Image"><img src="https://reyesmarq.github.io/wdd131/project/images/${image}.png" alt="${description}"></td>
+          <td data-label="Description">${description}</td>
+          <td data-label="Quantity"><input type="number" name="quantity" value="${quantity}" min="1"></td>
+          <td data-label="Unit Price">$${price}</td>
+          <td data-label="Total Price">$${(price * quantity).toFixed(2)}</td>
+          <td data-label="Delete"><button class="delete-btn" data-action="delete" data-product-id="${id}">X</button></td>
         </tr>
       `,
     )
@@ -38,4 +38,15 @@
     </tbody>
   `;
   checkoutContainer.innerHTML = checkoutHtml;
+
+  checkoutContainer.addEventListener('click', (event) => {
+    const action = event.target.dataset['action'];
+    const procuctId = event.target.dataset['productId'];
+
+    if (action === 'delete') {
+      const updatedProducts = products.filter(({ id }) => id !== procuctId);
+      localStorage.setItem('cart', JSON.stringify(updatedProducts));
+      location.reload();
+    }
+  });
 })();
