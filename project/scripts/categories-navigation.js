@@ -32,7 +32,7 @@
           : 'list__link';
       return `
         <li class="list__item">
-          <a href="pages/products/categories/index.html?name=${name}" class="${classesToAdd}">${name}</a>
+          <a href="https://reyesmarq.github.io/wdd131/project/pages/products/categories/index.html?name=${name}" class="${classesToAdd}">${name}</a>
         </li>
       `;
     })
