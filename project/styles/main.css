@@ -382,3 +382,19 @@ form textarea {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  text-align: center;
+  padding: 1rem;
+}

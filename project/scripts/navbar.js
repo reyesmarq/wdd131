@@ -12,19 +12,7 @@
     <nav class="nav" id="nav">
       <ul class="nav__menu">
         <li class="nav__menu-item">
-          <a href="index.html" class="nav__menu-link">link</a>
-        </li>
-        <li class="nav__menu-item">
-          <a href="index.html" class="nav__menu-link">link</a>
-        </li>
-        <li class="nav__menu-item">
-          <a href="index.html" class="nav__menu-link">link</a>
-        </li>
-        <li class="nav__menu-item">
-          <a href="index.html" class="nav__menu-link">link</a>
-        </li>
-        <li class="nav__menu-item">
-          <a href="index.html" class="nav__menu-link">link</a>
+          <a href="pages/checkout" class="nav__menu-link">Checkout</a>
         </li>
       </ul>
     </nav>
