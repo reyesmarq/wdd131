@@ -3,7 +3,7 @@
   const navHtml = `
     <div class="header__nav">
       <h1 class="header__title">
-        <a href="index.html">pcpartify</a>
+        <a href="https://reyesmarq.github.io/wdd131/project/index.html">pcpartify</a>
       </h1>
       <div class="header__icon" id="nav-hamburger">
         ☰
@@ -12,7 +12,7 @@
     <nav class="nav" id="nav">
       <ul class="nav__menu">
         <li class="nav__menu-item">
-          <a href="pages/checkout" class="nav__menu-link">Checkout</a>
+          <a href="https://reyesmarq.github.io/wdd131/project/pages/checkout" class="nav__menu-link">Checkout</a>
         </li>
       </ul>
     </nav>
